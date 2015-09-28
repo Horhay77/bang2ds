@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="80">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df name="Bang2DS" root=".">
+      <df name="build">
+      </df>
+      <df name="pngs">
+        <df name="CowboysConAnimaciones">
+          <in>cowboy_0_img.c</in>
+          <in>cowboy_1_img.c</in>
+          <in>cowboy_2_img.c</in>
+          <in>cowboy_3_img.c</in>
+          <in>cowboy_4_img.c</in>
+        </df>
+        <df name="CowboysSinAnimaciones">
+          <df name="Flaquitos">
+            <in>cowboy_0_img.c</in>
+            <in>cowboy_1_img.c</in>
+            <in>cowboy_2_img.c</in>
+            <in>cowboy_3_img.c</in>
+            <in>cowboy_4_img.c</in>
+          </df>
+          <df name="Gorditos">
+            <in>cowboy_0_img.c</in>
+            <in>cowboy_1_img.c</in>
+            <in>cowboy_2_img.c</in>
+            <in>cowboy_3_img.c</in>
+            <in>cowboy_4_img.c</in>
+          </df>
+        </df>
+        <df name="V1">
+        </df>
+        <df name="V2">
+        </df>
+      </df>
+      <df name="resources">
+      </df>
+      <df name="source">
+        <in>arrow_img.c</in>
+        <in>cara_00.c</in>
+        <in>cara_01.c</in>
+        <in>cara_02.c</in>
+        <in>cara_03.c</in>
+        <in>cara_04.c</in>
+        <in>cara_05.c</in>
+        <in>cara_06.c</in>
+        <in>cara_07.c</in>
+        <in>cara_08.c</in>
+        <in>cara_09.c</in>
+        <in>cara_10.c</in>
+        <in>cara_11.c</in>
+        <in>cara_12.c</in>
+        <in>cara_13.c</in>
+        <in>cara_14.c</in>
+        <in>cara_15.c</in>
+        <in>cowboy_0_img.c</in>
+        <in>cowboy_0_walking_img.c</in>
+        <in>cowboy_1_img.c</in>
+        <in>cowboy_2_img.c</in>
+        <in>cowboy_3_img.c</in>
+        <in>cowboy_4_img.c</in>
+        <in>dice_inside_img.c</in>
+        <in>dice_white_img.c</in>
+        <in>fondo_bottom_0_img.c</in>
+        <in>fondo_bottom_1_img.c</in>
+        <in>fondo_bottom_2_img.c</in>
+        <in>fondo_bottom_3_img.c</in>
+        <in>fondo_bottom_4_img.c</in>
+        <in>fondo_bottom_img.c</in>
+        <in>fondo_top_img.c</in>
+        <in>font_img.c</in>
+        <in>heart_img.c</in>
+        <in>lock_img.c</in>
+        <in>main.c</in>
+        <in>nombres_personajes_negro_img.c</in>
+        <in>nombres_personajes_rojo_img.c</in>
+        <in>nombres_roles_img.c</in>
+        <in>numeros_img.c</in>
+      </df>
+    </df>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceFolderFilter>^(nbproject)$</sourceFolderFilter>
+  <sourceRootList>
+    <Elem>.</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>default</compilerSet>
+      </toolsSet>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>.</buildCommandWorkingDir>
+          <buildCommand>${MAKE} -f Makefile</buildCommand>
+          <cleanCommand>${MAKE} -f Makefile clean</cleanCommand>
+          <executablePath></executablePath>
+          <cTool>
+            <incDir>
+              <pElem>/opt/devkitpro/libctru/include</pElem>
+              <pElem>/opt/devkitpro/libsf2d/include</pElem>
+            </incDir>
+          </cTool>
+        </makeTool>
+      </makefileType>
+    </conf>
+  </confs>
+</configurationDescriptor>
